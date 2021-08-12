@@ -9,10 +9,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Redrye\\TruckModels": "src/"
-        }
-    },
+
     "require": {}
 }
