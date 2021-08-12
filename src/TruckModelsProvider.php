@@ -4,7 +4,7 @@ namespace Redrye\TruckModels;
 
 use Illuminate\Support\ServiceProvider;
 
-class WebSocketsServiceProvider extends ServiceProvider
+class TruckModelsProvider extends ServiceProvider
 {
     /**
      * Boot the service provider.
