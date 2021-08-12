@@ -9,6 +9,17 @@
         }
     ],
     "minimum-stability": "dev",
-   
+    "autoload": {
+        "psr-4": {
+            "Redrye\\TruckModels\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redrye\\TruckModels\\TruckModelsProvider"
+            ]
+        }
+    },
     "require": {}
 }
